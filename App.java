@@ -53,5 +53,40 @@ public class App {
         dragon.hasMagicImmunity = false;
         dragon.name = "Ancient Wyvern";
         dragon.enemyDialogue();
+        
+        
+        //Weapon Class
+
+      Weapon LightningTruncheon = new Weapon();
+
+      LightningTruncheon.object = "Truncheon";
+      LightningTruncheon.name = "Lightning Truncheon";
+      LightningTruncheon.damage = 150;
+      LightningTruncheon.Weight = 2.5;
+      LightningTruncheon.Rarity = "Very Rare";
+      LightningTruncheon.Description = "A truncheon made by poseidon";
+
+      Weapon CurseSword = new Weapon();
+
+
+      CurseSword.object = "Sword";
+      CurseSword.name = "Curse Sword";
+      CurseSword.damage = 155;
+      CurseSword.Weight = 3.5;
+      CurseSword.Rarity = "Extremely Rare";
+      CurseSword.Description = "A Curse Sword that only choose its own user"
+
+
+      Weapon CommonBow = new Weapon();
+
+
+      CommonBow.object = "Bow";
+      CommonBow.name = "Common Bow";
+      CommonBow.damage = 120;
+      CommonBow.Weight = 5;
+      CommonBow.Rarity = "Common";
+      CommonBow.Description = "Bow that can be bought by everybody"
+
+
     }
 }
